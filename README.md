@@ -18,7 +18,7 @@ Diseñé y construí de punta a punta la plataforma que vigila en tiempo real m�
 - **Migración:** pasé la base de producción de MySQL a SQL Server con un traductor de dialecto en un solo adaptador, sin modificar ningún repositorio.
 - **Rendimiento:** endpoint crítico de 953 ms a 16 ms; 5,071 deadlocks contenidos con reintentos y backoff; pool de conexiones de 32/32 a cero agotamientos.
 - **Vida útil:** relojes de desgaste en competencia (Palmgren-Miner en barreras); 278 de 547 equipos ya superan su vida de diseño.
-- **Calidad:** más de 3,200 pruebas con pytest, BDD con behave, mutation testing (mutmut, Stryker) y gates de cobertura en CI.
+- **Calidad:** más de 3,600 pruebas automatizadas (pytest en el backend; unitarias y Playwright en el frontend), BDD con behave, mutation testing (mutmut, Stryker) y gates de cobertura en CI.
 
 ### AVIX · registro de incidencias por voz
 
